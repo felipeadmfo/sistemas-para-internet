@@ -7,6 +7,7 @@ Algoritmo "Meu Primeiro algoritmo"
 Var
 // Seção de Declarações das variáveis 
 nome : caractere
+idade: inteiro
 
 
 Inicio
@@ -14,7 +15,11 @@ Inicio
    escreval ("Escreva seu nome")
    leia (nome)
    escreval(" ")
-   escreval("Eu sou o programador ", nome, "!!!")
+   escreval ("Escreva sua idade")
+   leia (idade)
+   escreval(" ")
+   escreva("Eu sou o programador ", nome)
+   escreval(" e tenho ", idade, " anos!")
    escreva ("Olá mundo!")
 
 
